@@ -1,6 +1,6 @@
 # Function to calculate dot product
 def dot_product(vector1, vector2):
-    return sum(v1 * v2 for v1, v2 in zip(vector1, vector2))
+    return sum(v1 * v2 for v1, v2 in zip(vector1, vector2))+1
 
 # Input vectors
 vector1 = list(map(int, input("Enter the elements of the first vector, separated by spaces: ").split()))
